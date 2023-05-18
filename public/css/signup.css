@@ -1,0 +1,86 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body {
+    background: url("https://images.unsplash.com/photo-1614895268522-28e3ff06e4e0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80") no-repeat center center/cover;
+}
+h1 {
+    background-color: rgb(26, 18, 42);
+    margin: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px 15px;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
+    width: 300px;
+    padding: 20px;
+    background-color: rgb(206, 243, 222);
+    text-align: center;
+    border-radius: 15px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-weight: bold;
+    border-radius:8px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+}
+
+#btn {
+    width: 100%;
+    padding: 10px;
+    background-color:  rgb(19, 53, 19);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    padding: 10px 22px;
+}
+
+#btn2 {
+    padding: 10px 22px;
+     background-color: rgb(26, 18, 42);
+     border-radius: 8px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/* Responsive styles for different screen sizes */
+@media (max-width: 600px) {
+    .box {
+        width: 90%;
+    }
+}
+
+@media (max-width: 400px) {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+        font-size: 14px;
+    }
+}
